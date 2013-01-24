@@ -1,0 +1,4 @@
+guresare:
+    resource: "@GuresareBundle/Resources/config/routing.yml"
+    prefix:   /
+

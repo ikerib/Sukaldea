@@ -1,0 +1,7 @@
+parameters:
+#    guresare.example.class: Gitek\GuresareBundle\Example
+
+services:
+#    guresare.example:
+#        class: %guresare.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

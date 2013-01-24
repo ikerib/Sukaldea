@@ -1,0 +1,3 @@
+guresare_homepage:
+    pattern:  /
+    defaults: { _controller: GuresareBundle:Default:index }
