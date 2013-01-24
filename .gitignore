@@ -1,8 +1,17 @@
+# Symfony directories
 web/bundles/
 app/bootstrap.php.cache
-app/cache/*
-app/logs/*
-app/config/config.yml
+*/logs/*
+*/cache/*
 build/
 vendor
+vendor/*
 composer.phar
+web/uploads/*
+web/bundles/*
+
+# Configuration files
+app/config/parameters.ini
+app/config/parameters.yml
+app/config/config.yml
+
