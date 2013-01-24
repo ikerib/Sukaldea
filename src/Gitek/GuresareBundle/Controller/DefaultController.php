@@ -8,9 +8,9 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        $url = "https://my.sharepoint.com/sites/mysite/_layouts/listfeed.aspx?List=listid";
-        $user = "YourDomainUser";
-        $pass = "YourDomainPassowd";
+        $url = $this->container->getParameter('myurl');
+        $user = $this->container->getParameter('myuser');
+        $pass = $this->container->getParameter('mypass');
 
         $this->get('anchovy.curl')->setURL($url)->execute();
 
